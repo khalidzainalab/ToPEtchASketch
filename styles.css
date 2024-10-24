@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 5vh auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 800px;
+}
+
+.item {
+  width: 6.25%;
+  height: 6.25%;
+  border: 2px solid black;
+}
+
+.item:hover {
+    background-color: green;
+}
+
+.active{
+    background-color: green;
+}
